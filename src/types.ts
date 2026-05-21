@@ -36,6 +36,7 @@ export interface SectionData {
   flipCards?: FlipCardData[];
   gridItems?: GridItemData[];
   quizItems?: QuizQuestion[];
+  audioText?: string;
 }
 
 export interface Chapter {

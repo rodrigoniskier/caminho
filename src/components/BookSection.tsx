@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import { SectionData } from '../types';
 import { FlipCardGroup } from './FlipCardGroup';
 import { QuizGame } from './QuizGame';
-import { BookOpen } from 'lucide-react';
+import { BookOpen, PlayCircle, StopCircle, Loader2 } from 'lucide-react';
 
 interface BookSectionProps {
   key?: React.Key;
@@ -10,12 +10,73 @@ interface BookSectionProps {
 }
 
 export function BookSection({ section }: BookSectionProps) {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [isLoadingAudio, setIsLoadingAudio] = useState(false);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  const toggleAudio = async () => {
+    if (isPlaying && audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+      setIsPlaying(false);
+      return;
+    }
+
+    if (!section.audioText) return;
+
+    setIsLoadingAudio(true);
+    try {
+      const response = await fetch("/api/tts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text: section.audioText }),
+      });
+      
+      if (!response.ok) throw new Error("Failed to fetch audio");
+      
+      const data = await response.json();
+      if (data.audio) {
+        const audioSrc = `data:audio/mp3;base64,${data.audio}`;
+        if (!audioRef.current) {
+          audioRef.current = new Audio(audioSrc);
+          audioRef.current.addEventListener('ended', () => setIsPlaying(false));
+        } else {
+          audioRef.current.src = audioSrc;
+        }
+        await audioRef.current.play();
+        setIsPlaying(true);
+      }
+    } catch (err) {
+      console.error("Audio playback error:", err);
+    } finally {
+      setIsLoadingAudio(false);
+    }
+  };
+
   return (
     <div className="flex flex-col gap-6 animate-in fade-in slide-in-from-bottom-4 duration-500 fill-mode-both">
       {section.title && section.type !== 'quiz' && (
-        <h3 className="font-display text-[40px] font-black tracking-tighter leading-[0.9] text-white uppercase mt-4 mb-4">
-          {section.title}
-        </h3>
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mt-4 mb-4">
+          <h3 className="font-display text-[40px] font-black tracking-tighter leading-[0.9] text-white uppercase">
+            {section.title}
+          </h3>
+          {section.audioText && (
+            <button
+              onClick={toggleAudio}
+              disabled={isLoadingAudio}
+              className="flex items-center gap-2 px-4 py-2 bg-[#CCFF00] text-black font-black uppercase text-xs tracking-widest rounded-full hover:bg-white transition-colors self-start sm:self-auto shrink-0 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              {isLoadingAudio ? (
+                <Loader2 className="w-4 h-4 animate-spin" />
+              ) : isPlaying ? (
+                <StopCircle className="w-4 h-4" />
+              ) : (
+                <PlayCircle className="w-4 h-4" />
+              )}
+              {isLoadingAudio ? "Carregando..." : isPlaying ? "Parar Narração" : "Ouvir Narração"}
+            </button>
+          )}
+        </div>
       )}
 
       {section.type === 'text' && section.content && (
