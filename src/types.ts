@@ -1,4 +1,4 @@
-export type SectionType = "text" | "flip-cards" | "grid" | "list";
+export type SectionType = "text" | "flip-cards" | "grid" | "list" | "quiz";
 
 export interface VerseRef {
   text: string;
@@ -20,6 +20,13 @@ export interface GridItemData {
   description: string;
 }
 
+export interface QuizQuestion {
+  question: string;
+  options: string[];
+  correctAnswer: number;
+  explanation: string;
+}
+
 export interface SectionData {
   id: string;
   title?: string;
@@ -28,6 +35,7 @@ export interface SectionData {
   verses?: VerseRef[];
   flipCards?: FlipCardData[];
   gridItems?: GridItemData[];
+  quizItems?: QuizQuestion[];
 }
 
 export interface Chapter {

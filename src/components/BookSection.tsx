@@ -1,6 +1,7 @@
 import React from 'react';
 import { SectionData } from '../types';
 import { FlipCardGroup } from './FlipCardGroup';
+import { QuizGame } from './QuizGame';
 import { BookOpen } from 'lucide-react';
 
 interface BookSectionProps {
@@ -11,7 +12,7 @@ interface BookSectionProps {
 export function BookSection({ section }: BookSectionProps) {
   return (
     <div className="flex flex-col gap-6 animate-in fade-in slide-in-from-bottom-4 duration-500 fill-mode-both">
-      {section.title && (
+      {section.title && section.type !== 'quiz' && (
         <h3 className="font-display text-[40px] font-black tracking-tighter leading-[0.9] text-white uppercase mt-4 mb-4">
           {section.title}
         </h3>
@@ -33,6 +34,17 @@ export function BookSection({ section }: BookSectionProps) {
 
       {section.type === 'flip-cards' && section.flipCards && (
         <FlipCardGroup cards={section.flipCards} />
+      )}
+
+      {section.type === 'quiz' && section.quizItems && section.quizItems.length > 0 && (
+        <>
+          {section.title && (
+            <h3 className="font-display text-[40px] font-black tracking-tighter leading-[0.9] text-white uppercase mt-4">
+              {section.title}
+            </h3>
+          )}
+          <QuizGame questions={section.quizItems} />
+        </>
       )}
 
       {section.type === 'grid' && section.gridItems && (

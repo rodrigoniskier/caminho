@@ -1,4 +1,5 @@
 import { Chapter } from "../types";
+import { qCap4, qCap5, qCap6 } from "./quizzesCap4_6";
 
 export const cap4_6: Chapter[] = [
   {
@@ -102,6 +103,12 @@ export const cap4_6: Chapter[] = [
             backText: "Maturidade teológica em discipulado domiciliar silencioso mas exato, e implantação base infraestrutural e relacional dos inícios evangelísticos de Filipos."
           }
         ]
+      },
+      {
+        id: "quiz-4",
+        title: "Batalha 4: Apóstolos",
+        type: "quiz",
+        quizItems: qCap4
       }
     ]
   },
@@ -117,38 +124,36 @@ export const cap4_6: Chapter[] = [
         type: "text",
         content: [
           "Os Meios de Graça são as ferramentas exteriores instituídas por Cristo para nos comunicar benefícios.",
-          "**A Palavra**: O principal e mais robusto meio. O Espírito usa a palavra não apenas nas letras visíveis do pergaminho, mas eficientemente no coração do regenerado, curando a alma envenenada, produzindo fé que justifica e conduz ao amor verdadeiro.",
-          "**Os Sacramentos**: Existem apenas dois na Nova Aliança. Batismo (sinal de enxertia do crente em Cristo, com água) e Ceia do Senhor (pão e cálice onde experimentamos a Presença Espiritual Real para a nutrição contínua da alma e memorial da propiciação eterna)."
+          "A Palavra: O principal e mais robusto meio. O Espírito usa a palavra não apenas nas letras visíveis do pergaminho, mas eficientemente no coração do regenerado, curando a alma envenenada, produzindo fé que justifica e conduz ao amor verdadeiro.",
+          "Os Sacramentos: Existem apenas dois na Nova Aliança. Batismo (sinal de enxertia do crente em Cristo, com água) e Ceia do Senhor (pão e cálice onde experimentamos a Presença Espiritual Real para a nutrição contínua da alma e memorial da propiciação eterna)."
         ]
       },
       {
-        id: "cap5-oracao",
-        title: "A Oração (Pai Nosso)",
+        id: "cap5-oracao-novo",
+        title: "A Oração Perpétua",
         type: "grid",
         gridItems: [
           {
-            title: "1. Pai nosso, que estás nos céus",
-            description: "Invocação: Confiança filial combinada à reverência pela Soberania."
+            title: "Mateus 6:9-13",
+            description: "'Pai nosso, que estás nos céus! Santificado seja o teu nome. Venha o teu Reino; seja feita a tua vontade, assim na terra como no céu. Dá-nos hoje o nosso pão de cada dia. Perdoa as nossas dívidas, assim como perdoamos aos nossos devedores. E não nos deixes cair em tentação, mas livra-nos do mal, porque teu é o Reino, o poder e a glória para sempre. Amém.'"
+          }
+        ]
+      },
+      {
+        id: "cap5-oracao-expl",
+        type: "grid",
+        gridItems: [
+          {
+            title: "Invocação",
+            description: "No 'Pai Nosso', a confiança filial está atrelada ao Deus Altíssimo celestial em reverência total submissa santa de filhos do redil real de Seu amor eterno dEle lá nas Suas divinas providências."
           },
           {
-            title: "2. Santificado seja o teu nome",
-            description: "Para que Deus capacite o cristão a honrá-Lo gloriosamente em todos os feitos."
+            title: "Adoração e Santidade",
+            description: "Santificar Seu nome é pautar que em nada usurpemos Sua glória sacra, regozijando-nos fidedignos em Seu puro louvor majestoso infinito em Suas gloriosas eternas ações vitais."
           },
           {
-            title: "3. Venha o teu reino",
-            description: "Missões e escatologia: Queda do reino das trevas, avanço do evangelho com o derramar purificador."
-          },
-          {
-            title: "4. Seja feita a tua vontade",
-            description: "Alegrar-se no conformar passivo à Providência e ao agir obediencial ativo visível."
-          },
-          {
-            title: "5. O pão nosso nos dê hoje",
-            description: "Dependência e contentamento com o limite providencial necessário natural do momento diário."
-          },
-          {
-            title: "6. Perdoa e livra-nos do mal",
-            description: "Perdão via Expiatório substitutivo em cruz e proteção invisível preservando-nos dos ataques da carne e Diabo sedoso."
+            title: "Soberania e Redenção",
+            description: "'Bem como perdoamos...' Suplica atrelada à ação cruzial divina expiatória infundida lavadora de débitos nas fúrias sanadas no sangue cordeiro amado de luz na cruz pactual por nós."
           }
         ]
       },
@@ -157,13 +162,19 @@ export const cap4_6: Chapter[] = [
         title: "Governo Eclesiástico Presbiteriano",
         type: "text",
         content: [
-          "O único e inalienável supremo Cabeça da Igreja visível é **Jesus Cristo** e debaixo de si designou oficiais pactualmente instituídos:",
-          "**Presbíteros Regentes**: Guias espirituais, conselheiros que supervisionam almas contra as heresias vitais do aprisco.",
-          "**Presbíteros Docentes**: Pastores com dedicação laboriosa na pregação pública, instrução de profundidade sã e administração sacratíssima.",
-          "**Diáconos**: Operários da compaixão e misericórdia em distribuição material de transparência justa.",
+          "O único e inalienável supremo Cabeça da Igreja visível é Jesus Cristo e debaixo de si designou oficiais pactualmente instituídos:",
+          "Presbíteros Regentes: Guias espirituais, conselheiros que supervisionam almas contra as heresias vitais do aprisco.",
+          "Presbíteros Docentes: Pastores com dedicação laboriosa na pregação pública, instrução de profundidade sã e administração sacratíssima.",
+          "Diáconos: Operários da compaixão e misericórdia em distribuição material de transparência justa.",
           "",
           "A Disciplina Eclesiástica é exigida biblicamente, não focando aniquilação cruel corporativa, mas amor ao restaurar o irmão desgarrado, proteção dos sãos da putrefação e honra altíssima e intocável do noivo Rei."
         ]
+      },
+      {
+        id: "quiz-5",
+        title: "Batalha 5: Sacramentos e Governo",
+        type: "quiz",
+        quizItems: qCap5
       }
     ]
   },
@@ -174,6 +185,15 @@ export const cap4_6: Chapter[] = [
     subtitle: "O Credo Apostólico",
     sections: [
       {
+        id: "cap6-credo-full",
+        type: "text",
+        content: [
+          "Creio em Deus Pai, Todo-poderoso, Criador do Céu e da terra.",
+          "Creio em Jesus Cristo, seu único Filho, nosso Senhor, o qual foi concebido por obra do Espírito Santo; nasceu da virgem Maria; padeceu sob o poder de Pôncio Pilatos, foi crucificado, morto e sepultado; desceu ao inferno; ao terceiro dia ressurgiu dos mortos; subiu ao Céu, e está sentado à direita de Deus Pai Todo-poderoso, donde há de vir a julgar os vivos e os mortos.",
+          "Creio no Espírito Santo; na Santa Igreja Católica; na comunhão dos santos; na remissão dos pecados; na ressurreição da carne; na vida eterna. Amém."
+        ]
+      },
+      {
         id: "cap6-credo",
         title: "Análise Teológica do Credo",
         type: "list",
@@ -183,7 +203,7 @@ export const cap4_6: Chapter[] = [
             description: "Monoteísmo pactual e governo absoluto. Criação do nada (ex nihilo)."
           },
           {
-            title: "Crito Jesus, seu único Filho",
+            title: "Cristo Jesus, seu único Filho",
             description: "Verbo consubstancial glorioso, ungido definitivo salvífico como único senhor soberano eleito do aprisco."
           },
           {
@@ -192,21 +212,27 @@ export const cap4_6: Chapter[] = [
           },
           {
             title: "Padeceu sob Pilatos, desceu ao inferno",
-            description: "Jesus de fato experimentou o abandono do peso de fúria judicial eterna do Pai contra nossas transgressões em suas horas caladas do Calvário."
+            description: "Jesus de fato experimentou o abandono do peso das dores penais do sofrimento e punição inefável infernal sob fúria judicial eterna do Pai contra nossas transgressões em suas caladas fúrias."
           },
           {
             title: "Ao terceiro dia, ressurgiu",
-            description: "A derrota cósmica material e legal da morte em nosso favor garantindo o elo irrompível espiritual à nossa próxima ressurreição física temporal final."
+            description: "A derrota cósmica material da morte em nosso favor garantindo nossa futura glorificação ressurreição triunfal eterna."
           },
           {
             title: "Subiu aos céus, de onde virá",
-            description: "O reinado executivo Intercessor majestoso ao lado Direito e advinda consumativa real julgamentar visual de vivos com espanto para Ímpios, e de mortos aos Novos Céus em Paz."
+            description: "Reinado de Intercessor fiel assentado até Seu julgamento vindouro apinhado em glória de majestade visível real nas trombetas do cume cósmico."
           },
           {
-            title: "Espírito Santo, Igreja Católica, Remissão",
-            description: "Eficácia em ser trindade aplicando perdão salvacional à humanidade invisível global unificada perfeitamente em interagir dons (comunhão de santos consoladora) vitaliciamente."
+            title: "Espírito Santo, Igreja, Remissão, Ressurreição e Vida Eterna.",
+            description: "Soberania divina final do penhor nos corações lavando-os salvíficos e selando num corpo final puríssimo indestrutível lá nos braços dele nos novos céus em ceia farta amém de amor para sempre imaculados felizes puros leais em Si."
           }
         ]
+      },
+      {
+        id: "quiz-6",
+        title: "Batalha Final: O Credo",
+        type: "quiz",
+        quizItems: qCap6
       }
     ]
   },

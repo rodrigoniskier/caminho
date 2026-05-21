@@ -1,4 +1,5 @@
 import { Chapter } from "../types";
+import { qCap1, qCap2, qCap3 } from "./quizzesCap1_3";
 
 export const cap1_3: Chapter[] = [
   {
@@ -59,6 +60,12 @@ export const cap1_3: Chapter[] = [
             reference: "Romanos 8:30"
           }
         ]
+      },
+      {
+        id: "quiz-1",
+        title: "Batalha 1: Criação e Queda",
+        type: "quiz",
+        quizItems: qCap1
       }
     ]
   },
@@ -96,8 +103,7 @@ export const cap1_3: Chapter[] = [
           }
         ],
         verses: [
-          { text: "Abrão creu no Senhor, e isso lhe foi creditado como justiça.", reference: "Gênesis 15:6" },
-          { text: "Amei Jacó, mas rejeitei Esaú.", reference: "Romanos 9:13" }
+          { text: "Abrão creu no Senhor, e isso lhe foi creditado como justiça.", reference: "Gênesis 15:6" }
         ]
       },
       {
@@ -117,9 +123,6 @@ export const cap1_3: Chapter[] = [
           { title: "Zebulom", description: "Facilitadora do comércio portuário com gentios." },
           { title: "José", description: "Dividida em Efraim e Manassés recebendo porção dupla." },
           { title: "Benjamim", description: "A tribo guerreira, fiel à casa real, origem do apóstolo Paulo." }
-        ],
-        verses: [
-          { text: "Jacó reuniu seus filhos e lhes profetizou o futuro...", reference: "Gênesis 49" }
         ]
       },
       {
@@ -177,6 +180,12 @@ export const cap1_3: Chapter[] = [
             backText: "Declarou a Soberania de Deus moldando impérios e a profecia cirúrgica das Setenta Semanas sobre o Messias."
           }
         ]
+      },
+      {
+        id: "quiz-2",
+        title: "Batalha 2: Antigo Testamento",
+        type: "quiz",
+        quizItems: qCap2
       }
     ]
   },
@@ -190,10 +199,10 @@ export const cap1_3: Chapter[] = [
         id: "cap3-intro",
         type: "text",
         content: [
-          "A Lei Moral dada por Deus no Monte Sinai é a declaração eterna de Sua própria justiça. A Lei cumpre três propósitos (triplex usus legis):",
-          "1. Uso Pedagógico: Restringir o mal na sociedade.",
-          "2. Uso Elêntico: Espelho que revela a pecaminosidade e direciona a Cristo para justificação.",
-          "3. Uso Normativo: Regra de vida para o cristão regenerado trilhar em gratidão."
+          "A Lei Moral dada por Deus no Monte Sinai (Êxodo 20) é a declaração eterna de Sua própria justiça e santidade indiscutível. A Lei cumpre três propósitos (triplex usus legis):",
+          "1. Uso Pedagógico: Restringir o mal na sociedade civil pelas rédeas morais e civis.",
+          "2. Uso Elêntico: O espelho avassalador que revela a pecaminosidade total humana, condenando as obras e conduzindo ao desespero e que clama por Cristo para justificação única.",
+          "3. Uso Normativo: Regra libertadora de vida para os filhos regenerados andarem em gratidão jubilosa focada em amor por seu Redentor."
         ]
       },
       {
@@ -202,46 +211,52 @@ export const cap1_3: Chapter[] = [
         type: "list",
         gridItems: [
           {
-            title: "1º Não terás outros deuses",
-            description: "Exige dependência e adoração exclusivas. Proíbe qualquer forma de idolatria espiritual e orgulho."
+            title: "I. Não terás outros deuses diante de mim",
+            description: "Exige dependência exclusiva da graça. Proíbe toda idolatria de coração: o status, os amores fáceis, as aprovações, redes e a avareza que sugam sua devoção diária fora da Majestade do Único Senhor Vivo a quem pertencem tuas entranhas."
           },
           {
-            title: "2º Não farás imagem de escultura",
-            description: "Exige preservação do preceito adorativo de forma pura (Princípio Regulador). Proíbe adoração não prescrita."
+            title: "II. Não farás para ti nenhum ídolo",
+            description: "(Êxodo 20:4) Não farás para ti imagem de escultura, nem semelhança alguma do que há em cima nos céus, nem embaixo na terra, nem nas águas debaixo da terra. Não as adorarás, nem lhes darás culto... Exige o Princípio Regulador divino: Deus só é cultuado como ele mandou, e nunca pelas vias emocionais plásticas cegas de shows ou ícones mudos dos mortais."
           },
           {
-            title: "3º Não tomarás o nome do Senhor em vão",
-            description: "Exige uso santo e reverente do Seu nome e obras. Proíbe profanação, juramentos falsos e blasfêmias."
+            title: "III. Não tomarás em vão o nome do Senhor",
+            description: "(Êxodo 20:7) Não tomarás o nome do Senhor, teu Deus, em vão, porque o Senhor não terá por inocente o que tomar o seu nome em vão. Proíbe usos levianos, gritos falsos, juramentos fúteis, brincadeiras irreverentes nas mídias pias onde Seu majestoso Ser Sagrado vira palanque humorístico vão aos tolos sem piedade nas línguas de aspas soltas."
           },
           {
-            title: "4º Lembra-te do dia de sábado",
-            description: "Exige consagração de um dia dedicado ao culto (Domingo). Proíbe negligência por prazeres carnais."
+            title: "IV. Lembra-te do dia de sábado",
+            description: "(Êxodo 20:8) Lembra-te do dia de sábado, para o santificar. Trabalharás seis dias e neles farás todos os teus trabalhos, mas o sétimo dia é o sábado dedicado ao Senhor, o teu Deus. Repouso espiritual real para nutrir alma na comunhão cultual dos santos despoluindo as vistas fúteis diárias, dando prioridade inegociável à morada dEle adorando com irmãos em louvor vivo limpo livre."
           },
           {
-            title: "5º Honra teu pai e tua mãe",
-            description: "Exige obediência às autoridades divinamente estabelecidas. Proíbe rebeldia e abuso de liderança."
+            title: "V. Honra teu pai e tua mãe",
+            description: "(Êxodo 20:12) Honra teu pai e tua mãe, a fim de que tenhas vida longa na terra que o Senhor, o teu Deus, te dá. Exige prezar a autoridade nas ruas e nos lares, rejeitando o rebelde egoísta natural jovem onde tudo flui no próprio ego arrogante insolente desabando famílias inteiras."
           },
           {
-            title: "6º Não matarás",
-            description: "Exige preservação da vida e proteção. Proíbe homicídio, suicídio e até desejos odiosos no coração."
+            title: "VI. Não matarás",
+            description: "O Cristo eleva isto para a ira oculta. Não se assassina so com armas bélicas punhais e pólvora mas em difamação mental ódio vivo fogueira virtual assédio raivoso bullying cortante perante irmãos aos berros calados onde se destrói outro impiedosamente sádico nas vingancinhas mesquinhas vãs do coração vil."
           },
           {
-            title: "7º Não adulterarás",
-            description: "Exige castidade matrimonial e pureza de mente, olhar e sentimentos. Proíbe lascívia e imoralidade."
+            title: "VII. Não adulterarás",
+            description: "Proíbe não só a traição e ruína dos laços leais sacros de corpos unidos diante de Deus na aliança, mas foca certeiramente na cultura da libertinagem pélvica da internet, conversas turvas da futilidade nua visual sem pejo destruidora lasciva em corrupção dos instintos no vaso sacro puro exigido do cristão celibatário em lutas leais sinceras de pureza honrosa."
           },
           {
-            title: "8º Não furtarás",
-            description: "Exige prosperidade adquirida pelo suor justo, doação ao necessitado. Proíbe roubo, sonegação, usura."
+            title: "VIII. Não furtarás",
+            description: "Não abarque ao seu as posses ilegais, calotes escondidos avarentos sonegadores. Mas, acima disso: foca generosidade em labor cívico honesto dando a viúva aos doentes caridade ao pobre solitário que grita com frio na rua e que muitos passam cegos insensíveis nas suas riquezas arrogantes estéreis acumulativas sem socorro misericordioso ao lado ali caído."
           },
           {
-            title: "9º Não dirás falso testemunho",
-            description: "Exige falar verdade defendendo os inocentes. Proíbe calúnia, fofoca e mentira social mal-intencionada."
+            title: "IX. Não darás falso testemunho",
+            description: "(Êxodo 20:16) Não darás falso testemunho contra o teu próximo. O cuidado sacrossanto inegociável com a fala no meio de redes tóxicas do escárnio difamatório da cultura de cancelamentos perigosos cegos fáceis dos vereditos falsos pisotear reputações com cinismo letal virtual em máscaras caladas das falsidades sujas soltas sem honra às vidas rasgadas mentindo perante o Todo Poderoso Veraz."
           },
           {
-            title: "10º Não cobiçarás",
-            description: "Exige contentamento profundo com a providência divina para si. Proíbe inveja e olho cobiçoso perante o que pertence ao outro."
+            title: "X. Não cobiçarás",
+            description: "(Êxodo 20:17) Não cobiçarás a casa do teu próximo. Não cobiçarás a mulher do teu próximo, nem seus servos ou servas, nem seu boi ou jumento, nem coisa alguma que lhe pertença. Amargura tóxica cega invejosa venenosa dos dons e prosperidades vizinhas, não tendo profunda gratidão amorosa contente na suficiência diária infalível pacífica divinal dada em seu prato pão colo graça viva infusa agora já em regozijo na farta bênção simples pacata feliz em glória presente e fidedigna."
           }
         ]
+      },
+      {
+        id: "quiz-3",
+        title: "Batalha 3: Mandamentos",
+        type: "quiz",
+        quizItems: qCap3
       }
     ]
   }
