@@ -28,10 +28,11 @@ export function ChapterReader({ chapter, onBack, onNext, onPrev }: ChapterReader
 
   return (
     <motion.div
-      initial={{ opacity: 0, x: 20 }}
-      animate={{ opacity: 1, x: 0 }}
-      exit={{ opacity: 0, x: -20 }}
-      transition={{ duration: 0.3 }}
+      initial={{ opacity: 0, rotateY: 90, scale: 0.9 }}
+      animate={{ opacity: 1, rotateY: 0, scale: 1 }}
+      exit={{ opacity: 0, rotateY: -90, scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 200, damping: 20, duration: 0.5 }}
+      style={{ transformStyle: "preserve-3d" }}
       className="min-h-screen pb-32 pt-6 w-full max-w-3xl mx-auto px-4 sm:px-6"
       drag="x"
       dragConstraints={{ left: 0, right: 0 }}

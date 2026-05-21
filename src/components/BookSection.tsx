@@ -55,11 +55,15 @@ export function BookSection({ section }: BookSectionProps) {
 
   return (
     <div className="flex flex-col gap-6 animate-in fade-in slide-in-from-bottom-4 duration-500 fill-mode-both">
-      {section.title && section.type !== 'quiz' && (
+      {(section.title || section.audioText) && section.type !== 'quiz' && (
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mt-4 mb-4">
-          <h3 className="font-display text-[40px] font-black tracking-tighter leading-[0.9] text-white uppercase">
-            {section.title}
-          </h3>
+          {section.title ? (
+            <h3 className="font-display text-[40px] font-black tracking-tighter leading-[0.9] text-white uppercase">
+              {section.title}
+            </h3>
+          ) : (
+            <div /> // Placeholder to keep flex-between spacing
+          )}
           {section.audioText && (
             <button
               onClick={toggleAudio}

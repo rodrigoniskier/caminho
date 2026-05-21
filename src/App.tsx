@@ -48,6 +48,10 @@ export default function App() {
           )}
         </AnimatePresence>
       </div>
+
+      <footer className="relative z-10 py-8 text-center text-[#666] font-sans text-xs tracking-[0.2em] uppercase w-full">
+        <p>Desenvolvido por Rodrigo Niskier (2026)</p>
+      </footer>
     </div>
   );
 }
