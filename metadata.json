@@ -1,0 +1,6 @@
+{
+  "name": "O Caminho da Promessa",
+  "description": "Doutrina, História e Vida Cristã à Luz da Fé Reformada Confessional. Uma experiência interativa para estudo teológico.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
