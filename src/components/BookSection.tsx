@@ -36,7 +36,8 @@ export function BookSection({ section }: BookSectionProps) {
       
       const data = await response.json();
       if (data.audio) {
-        const audioSrc = `data:audio/mp3;base64,${data.audio}`;
+        const mimeType = data.mimeType || "audio/mp3";
+        const audioSrc = `data:${mimeType};base64,${data.audio}`;
         if (!audioRef.current) {
           audioRef.current = new Audio(audioSrc);
           audioRef.current.addEventListener('ended', () => setIsPlaying(false));
