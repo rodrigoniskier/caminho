@@ -11,9 +11,9 @@ export const cap1_3: Chapter[] = [
         id: "intro-main",
         type: "text",
         content: [
-          "A verdadeira piedade cristã não se baseia em intuições subjetivas ou em inovações de cada época, mas repousa firmemente sobre a verdade imutável de Deus revelada em Sua Palavra. As Escrituras Sagradas são o registro inteiramente inspirado, infalível e inerrante da vontade divina, dado à Igreja como a única regra suficiente, de autoridade suprema, para a salvação, a fé e a vida.",
-          "Para estruturar o aprendizado daquilo que Deus revelou, a tradição cristã histórica, expressa nos catecismos da Reforma Protestante, desenvolveu um método pedagógico sistemático. Este material se propõe a guiar o leitor através desse rico patrimônio bíblico-teológico.",
-          "Evidentemente, a Bíblia é a fonte suprema da qual devemos beber todos os dias para o nosso crescimento espiritual. Portanto, de maneira nenhuma este breve conteúdo substitui a leitura e meditação na Palavra do Senhor."
+          "A verdadeira caminhada cristã não se baseia no que apenas sentimentos ditam ou nas tendências do momento, mas repousa firmemente sobre a verdade imutável de Deus, que está na Bíblia. As Escrituras Sagradas são o registro totalmente inspirado e sem erros da vontade divina, entregue como o manual definitivo para a nossa vida.",
+          "Para organizar o aprendizado, a tradição cristã histórica sistematizou a teologia em trilhas para ensinar as verdades de forma acessível. Este material visa guiar você por esse rico conteúdo bíblico e histórico.",
+          "Naturalmente, a Bíblia é a fonte primária e irrenunciável. Nenhum resumo substitui a leitura e meditação constante na Palavra."
         ]
       }
     ]
@@ -22,12 +22,12 @@ export const cap1_3: Chapter[] = [
     id: "cap1",
     number: "I",
     title: "O Drama da Redenção",
-    subtitle: "Do Começo do Tempo à Vitória Final",
+    subtitle: "Do Começo à Vitória Final",
     sections: [
       {
         id: "cap1-intro",
         type: "text",
-        content: "A história humana e a revelação bíblica não são uma colcha de retalhos de eventos desconexos. Elas formam uma grande e unificada narrativa organizada por Deus, dividida em quatro grandes atos estabelecidos em Seus decretos eternos."
+        content: "A história da humanidade não é composta por eventos aleatórios. Tudo faz parte de uma grande redenção orquestrada por Deus, passível de divisão em quatro atos grandiosos, desde o absoluto zero."
       },
       {
         id: "cap1-atos",
@@ -35,23 +35,23 @@ export const cap1_3: Chapter[] = [
         gridItems: [
           {
             title: "Criação",
-            subtitle: "Estado Original",
-            description: "No princípio, Deus determinou revelar Sua glória criando o universo do nada. Criou o ser humano à Sua imagem (conhecimento, retidão, santidade). Deus estabeleceu o Pacto das Obras com Adão, prometendo vida eterna sob condição de obediência perfeita."
+            subtitle: "O Início de Tudo",
+            description: "No princípio, Deus revelou Sua glória criando o universo do nada. Formou o homem à Sua imagem. Ele estabeleceu um pacto com Adão, prometendo uma vida em plenitude em troca de fidelidade."
           },
           {
             title: "Queda",
-            subtitle: "Ruína da Humanidade",
-            description: "Adão cedeu à tentação, desobedecendo ao mandamento de Deus. A culpa de Adão foi imputada a todos (Depravação Total). A natureza humana foi corrompida, perdendo a capacidade de realizar qualquer bem espiritual."
+            subtitle: "A Fratura da Humanidade",
+            description: "Adão falhou, cedeu ao pecado e quebrou o pacto. A consequência drástica caiu sobre nós, e todo o sistema corrompeu-se. O homem perdeu a inclinação natural ao bem desvinculado da graça de Deus."
           },
           {
             title: "Redenção",
-            subtitle: "Pacto da Graça",
-            description: "Deus, no Pacto da Redenção, elegeu um povo. O Filho executou a redenção por Sua obediência ativa (vida perfeita) e passiva (morte substitutiva na cruz). Essa redenção é aplicada infalivelmente pelo Espírito Santo aos eleitos."
+            subtitle: "O Resgate Imediato",
+            description: "No decreto eterno, Deus não nos abandonou à miséria. Escolheu salvar o Seu povo. Jesus encarnou, assumiu nossa culpa fatal e cravou na cruz a nossa penalidade. O Espírito Santo agora aplica essa graça perdoadora a todos que creem."
           },
           {
             title: "Glorificação",
-            subtitle: "A Vitória Final",
-            description: "A obra redentora culminará nos Novos Céus e Nova Terra. Imediatamente após a morte, a alma é purificada e, no Último Dia, os mortos serão ressuscitados com corpos incorruptíveis, livres das consequências do pecado."
+            subtitle: "O Fim Restaurado e Imbatível",
+            description: "A obra de Cristo será finalizada em uma realidade inteiramente livre do pecado: Novos Céus e Nova Terra. Os escolhidos ressuscitarão ilesos, com corpos transformados, livres para usufruírem de Deus na eternidade palpável sem choro ou perdas."
           }
         ],
         verses: [
@@ -72,34 +72,34 @@ export const cap1_3: Chapter[] = [
   {
     id: "cap2",
     number: "II",
-    title: "Os Pilares da Aliança",
+    title: "Heróis Quebrados, Graça Farta",
     subtitle: "O Antigo Testamento",
     sections: [
       {
         id: "cap2-patriarcas",
-        title: "Os Patriarcas",
+        title: "Os Primeiros Pais",
         type: "flip-cards",
         flipCards: [
           {
             title: "Abraão",
-            frontLabel: "Dilema Teológico",
-            frontText: "O teste da fé diante do aparente silêncio de Deus. Chamado a deixar sua terra sem saber para onde ia, recebeu a promessa de posteridade numerosa na velhice. O ápice: a ordem de sacrificar Isaque.",
-            backLabel: "Contribuição",
-            backText: "Tornou-se o 'pai dos que creem'. Modelo de justificação pela fé somente. O carneiro substituto no Monte Moriah revelou o caráter da futura morte de Cristo."
+            frontLabel: "O Desafio",
+            frontText: "Foi chamado para abandonar o lar sem mapa claro nas mãos, e suportou longos hiatos nos conselhos divinos. Obteve a promessa de ser pai de multidões num período onde a idade apontava o caso para a impossibilidade; e no auge viu Deus pedir este mesmo único filho no altar.",
+            backLabel: "O Legado",
+            backText: "Conhecido plenamente como 'Pai da Fé'. Demonstrou fidedignamente que Deus exige confiança onde a visão limita. O carneiro resgatando o filho prefigurava vividamente a Cristo no altar."
           },
           {
             title: "Isaque",
-            frontLabel: "Dilema Teológico",
-            frontText: "Viver sob a sombra de uma grande promessa paterna, enfrentando hostilidades dos vizinhos e a dolorosa rivalidade entre seus filhos (Esaú e Jacó).",
-            backLabel: "Contribuição",
-            backText: "Preservação da semente pactual. Um tipo vivo de Cristo: filho da promessa nascido milagrosamente, submisso ao sacrifício e figuradamente resgatado da morte."
+            frontLabel: "O Desafio",
+            frontText: "Lidou com lutas nas escavações de poços, com hostilidade diplomática da época com reinos da redondeza e, em casa, possuía o luto amargo das divisões violentas entre Esaú e Jacó na luta pelo destino.",
+            backLabel: "O Legado",
+            backText: "Mantenedor das promessas divinas. A sua própria não-morte no altar o põe como forte prefiguração ressonante ao destino substitutivo que aguardaria Jesus, resgatador no sacrifício verdadeiro futuro."
           },
           {
             title: "Jacó",
-            frontLabel: "Dilema Teológico",
-            frontText: "Conflito entre usar recursos carnais ou aguardar providência divina. Enganador, buscou bênçãos trapaceando o irmão e o pai. Viveu no exílio amedrontado.",
-            backLabel: "Contribuição",
-            backText: "Objeto clássico da eleição incondicional divina. Lutou com o Anjo em Peniel, sendo renomeado Israel. Tornou-se pai dos doze patriarcas."
+            frontLabel: "O Desafio",
+            frontText: "Inicialmente astuto e estelionatário em seus interesses; lutou por aprovação, mentiu em leitos de velhice para possuir aquilo que foi prometido em pura graça, e sofreu traições amargas colhendo aquilo que ele outrora plantou na fuga de anos a fio exilado.",
+            backLabel: "O Legado",
+            backText: "A maior evidência de ser objeto de imensa redenção divina não meritória! Ao se agarrar ao anjo ferido na perna e reconhecer miséria, torna-se Israel e, de seus desdobramentos, nascem as tribos líderes e reais originais da aliança messiânica."
           }
         ],
         verses: [
@@ -107,77 +107,37 @@ export const cap1_3: Chapter[] = [
         ]
       },
       {
-        id: "cap2-tribos",
-        title: "As Doze Tribos de Israel",
-        type: "grid",
-        gridItems: [
-          { title: "Rúben", description: "Perdeu a primazia por instabilidade e imoralidade." },
-          { title: "Simeão", description: "Dispersa por atitude violenta em Siquém." },
-          { title: "Levi", description: "Guardiã da Lei, Tabernáculo e sacrifícios. Aponta ao sacerdócio perfeito." },
-          { title: "Judá", description: "A tribo real. O cetro não arredaria até Siló (Cristo)." },
-          { title: "Dã", description: "Lutou pelo território; tornou-se centro de idolatria." },
-          { title: "Naftali", description: "Associada à Galileia, onde o ministério de Cristo brilharia." },
-          { title: "Gade", description: "Coragem militar defendendo fronteiras." },
-          { title: "Aser", description: "Abençoada com terras férteis, aponta à provisão de Deus." },
-          { title: "Issacar", description: "Homens sábios, discernidores dos tempos de Deus." },
-          { title: "Zebulom", description: "Facilitadora do comércio portuário com gentios." },
-          { title: "José", description: "Dividida em Efraim e Manassés recebendo porção dupla." },
-          { title: "Benjamim", description: "A tribo guerreira, fiel à casa real, origem do apóstolo Paulo." }
-        ]
-      },
-      {
         id: "cap2-pactuais",
-        title: "Moisés, Reis e Profetas",
+        title: "Reis e Profetas da Esperança",
         type: "flip-cards",
         flipCards: [
           {
             title: "Moisés",
-            frontLabel: "Dilema",
-            frontText: "Tentou salvar o povo na carne, falhou. Alegou lentidão de fala; resistiu e liderou um povo murmuroso e rebelde.",
-            backLabel: "Contribuição",
-            backText: "Mediador do Pacto Sinaítico, tirou Israel do Egito, construiu o Tabernáculo. Maior tipo de Cristo como profeta."
+            frontLabel: "O Desafio",
+            frontText: "Carregou pânico para retornar, desculpando-se perante gaguez. Foi encarregado pela mais exaustiva obra pastoral do mundo, conduzindo multidões reclamonas que desprezavam a liberdade para pensar no prato da escravidão anterior, durante muitos anos.",
+            backLabel: "O Legado",
+            backText: "Líder magnânimo do Êxodo e profeta mediador inestimável das Leis de Deus em tábuas. Moldou alicerces éticos morais fundantes servindo perfeitamente para abrir clareiras do redentivo amor de Jesus e sua libertação muito superior após Ele."
           },
           {
             title: "Rei Davi",
-            frontLabel: "Dilema",
-            frontText: "Homem segundo o coração de Deus, mas cometeu adultério, assassinato, e sofreu rebelião armada do próprio filho.",
-            backLabel: "Contribuição",
-            backText: "Modelo do Pacto Davídico (trono eterno). Escreveu Salmos, apontando diretamente ao Messias."
-          },
-          {
-            title: "Rei Salomão",
-            frontLabel: "Dilema",
-            frontText: "O perigo do sincretismo. Sabedoria ímpar, mas seus casamentos diplomáticos levaram-no à idolatria no fim da vida.",
-            backLabel: "Contribuição",
-            backText: "Edificou o Templo. Consolidou a literatura sapiencial ensinando o temor do Senhor."
-          },
-          {
-            title: "Elias e Eliseu",
-            frontLabel: "Dilema",
-            frontText: "Ministérios sob ameaça de morte (Jezabel) e apostasia do Reino do Norte. Luta contra a idolatria.",
-            backLabel: "Contribuição",
-            backText: "Zelaram pelo monoteísmo; prefiguraram o ministério profético e milagroso de Jesus."
+            frontLabel: "O Desafio",
+            frontText: "Denominado um 'homem segundo o coração de Deus', contudo, cedeu às piores fraquezas nos episódios mais hediondos que custaram homicídio de amigos fiéis, abalo real da nação sob escândalos perante o adultério de um rei manchado na época de forma avassaladora.",
+            backLabel: "O Legado",
+            backText: "Contritou-se visceralmente à mercê de Sua imensa Misericórdia nos Salmos e arrependeu-se na dor. Dele desceria o Messias Prometido. Através do trono que Deus lhe forjou de forma condicional, nós lemos quem Deus mandaria pra herdar esse cetro de modo pleno eternamente e infinito na redenção suprema."
           },
           {
             title: "Isaías",
-            frontLabel: "Dilema",
-            frontText: "Pregar a um povo duro sob ameaça assíria. Testemunha do declínio moral.",
-            backLabel: "Contribuição",
-            backText: "Evangelista do AT. O nascimento virginal de Emanuel e a expiação substitutiva do Servo (Is 53)."
-          },
-          {
-            title: "Jeremias e Ezequiel",
-            frontLabel: "Dilema",
-            frontText: "Grito impopular e luto em silêncio profético durante dor extrema e queda pactual.",
-            backLabel: "Contribuição",
-            backText: "Profecia do retorno, a visão do Novo Templo e promessa da Nova Aliança inscrita no coração."
+            frontLabel: "O Desafio",
+            frontText: "Fez profecias num tempo onde ninguém da própria nação em falência ética quis verdadeiramente ouvir os acertos de contas, apontando mazelas cruas para reis que rejeitaram ver os corações orgulhosos trancados num período caótico de colapso cívico local no Judá aflito sem paz de verdade.",
+            backLabel: "O Legado",
+            backText: "Nomeado nos ciclos exegéticos de estudos clássicos com forte título do “Quinto Evangelho”. Antecipou de forma assustadoramente fidedigna as minúcias das dores substitutivas, torturas impiedosas cruéis vicárias punitivas onde a cruz recairia nos moldes exatos e sublimes nos sofrimentos passivos ali pelo próprio cordeiro rasgado redentor."
           },
           {
             title: "Daniel",
-            frontLabel: "Dilema",
-            frontText: "Viver fiel em cultura imperial pagã e corrupta sem cessar orações a Deus.",
-            backLabel: "Contribuição",
-            backText: "Declarou a Soberania de Deus moldando impérios e a profecia cirúrgica das Setenta Semanas sobre o Messias."
+            frontLabel: "O Desafio",
+            frontText: "Sendo exilado radical da pátria, inserido à moda de cultura idolátrica de Babilonia e reinos impositivos absolutistas. Manteve pressões enormes onde o sincretismo pagão oferecia vantagens imensuravelmente prósperas se ele tão somente se calasse para servir ao rei.",
+            backLabel: "O Legado",
+            backText: "Sem ceder, e exposto às jaulas, expôs ao mundo que O Verdadeiro Deus Soberano joga, arruina os planos das vaidades temporais de reis falsamente inabaláveis demonstrando controle férreo na geopolítica pra dar cumprimento nos fins à esperança firme póstuma eterna que Ele tem orquestrada sob Suas rédeas e sabedoria inconteste na linha cívica até a vinda no fim."
           }
         ]
       },
@@ -192,63 +152,64 @@ export const cap1_3: Chapter[] = [
   {
     id: "cap3",
     number: "III",
-    title: "A Lei de Deus",
-    subtitle: "O Decálogo e seus Usos",
+    title: "A Bússola Divina",
+    subtitle: "Os Dez Mandamentos",
     sections: [
       {
         id: "cap3-intro",
         type: "text",
         content: [
-          "A Lei Moral dada por Deus no Monte Sinai (Êxodo 20) é a declaração eterna de Sua própria justiça e santidade indiscutível. A Lei cumpre três propósitos (triplex usus legis):",
-          "1. Uso Pedagógico: Restringir o mal na sociedade civil pelas rédeas morais e civis.",
-          "2. Uso Elêntico: O espelho avassalador que revela a pecaminosidade total humana, condenando as obras e conduzindo ao desespero e que clama por Cristo para justificação única.",
-          "3. Uso Normativo: Regra libertadora de vida para os filhos regenerados andarem em gratidão jubilosa focada em amor por seu Redentor."
+          "O código moral do Monte Sinai descreve perfeitamente o caráter reto e limpo de nosso Deus.",
+          "A Lei nos serve de três modos incrivelmente práticos hoje:",
+          "1. Uso Cívico (Freio): Serve à ordem social estabelecendo limites morais na convivência e segurando a depravação num nível menos destrutivo visível.",
+          "2. Uso Elêntico (Espelho): Mostra-nos implacavelmente onde nossa retidão afunda nula e podre p perante Ele, conduzindo-nos quebrantados imediatamente ao Salvador único possível q nós tanto evitamos por arrogância e precisaremos dEle.",
+          "3. Uso Normativo (Regra/Mapa): Aos salvos e justificados que não devem os erros ao juiz, a lei não pesa mais para infernos com medos e sentenças duras; transforma-se numa incrível lâmpada afetiva que diz p a nova e farta mente de quem nos amou como nós melhor responderemos nisto com bondade hoje livre com Ele e o próximo fielmente com laços limpos e sinceros!"
         ]
       },
       {
         id: "cap3-decálogo",
-        title: "Os Dez Mandamentos",
+        title: "Os Mandamentos em Foco",
         type: "list",
         gridItems: [
           {
-            title: "I. Não terás outros deuses diante de mim",
-            description: "Exige dependência exclusiva da graça. Proíbe toda idolatria de coração: o status, os amores fáceis, as aprovações, redes e a avareza que sugam sua devoção diária fora da Majestade do Único Senhor Vivo a quem pertencem tuas entranhas."
+            title: "I. Não terás outros deuses",
+            description: "Condena categoricamente a entrega das suas melhores energias de afeto primário ao sucesso profissional, fama ilusória na timeline de vida dos app, ou bens fugazes. Nada tem aval para ocupar a glória ininterrupta exclusiva ao próprio Altíssimo e Supridor Supremo!"
           },
           {
-            title: "II. Não farás para ti nenhum ídolo",
-            description: "(Êxodo 20:4) Não farás para ti imagem de escultura, nem semelhança alguma do que há em cima nos céus, nem embaixo na terra, nem nas águas debaixo da terra. Não as adorarás, nem lhes darás culto... Exige o Princípio Regulador divino: Deus só é cultuado como ele mandou, e nunca pelas vias emocionais plásticas cegas de shows ou ícones mudos dos mortais."
+            title: "II. Não farás imagens de escultura",
+            description: "Adicional à quebra de esculturas físicas arcaicas antigas; ensina q Deus abomina de forma solene e enfática criar moldes teológicos rasos inventivos para conformar nosso rito com a ideia que a gente faz que seria mais flexível e tolerante aos males dEle. A adoração no culto exige Sua exata ordem sem invenção e misticismos no Seu ser em nossos cultos com a pureza."
           },
           {
-            title: "III. Não tomarás em vão o nome do Senhor",
-            description: "(Êxodo 20:7) Não tomarás o nome do Senhor, teu Deus, em vão, porque o Senhor não terá por inocente o que tomar o seu nome em vão. Proíbe usos levianos, gritos falsos, juramentos fúteis, brincadeiras irreverentes nas mídias pias onde Seu majestoso Ser Sagrado vira palanque humorístico vão aos tolos sem piedade nas línguas de aspas soltas."
+            title: "III. Não tomar o Nome em vão",
+            description: "Proíbe irrestritamente o deboche grosseiro cômico, blasfêmias fúteis proferidas num escape e os discursos vazios que abusam das virtudes pesadas divinais. Reivindicar O Todo Poderoso como 'fiador' de promessas falsas a parentes num escândalo em praça é avilte cruel de Seu domínio sagrado de vida!"
           },
           {
-            title: "IV. Lembra-te do dia de sábado",
-            description: "(Êxodo 20:8) Lembra-te do dia de sábado, para o santificar. Trabalharás seis dias e neles farás todos os teus trabalhos, mas o sétimo dia é o sábado dedicado ao Senhor, o teu Deus. Repouso espiritual real para nutrir alma na comunhão cultual dos santos despoluindo as vistas fúteis diárias, dando prioridade inegociável à morada dEle adorando com irmãos em louvor vivo limpo livre."
+            title: "IV. Santidade ao Dia do Descanso",
+            description: "Rompe abertamente contra o estresse implacável da rotina diária escravizante moderna de não pararmos p nada! Restitui nos cultos e convivências aos domingos aquele realineamento afetivo fundamental à comunidade de redimidos sem esgotamentos na graça plena em pregações e ações caridosas a necessitados com O Deus da Vida presente nos enchendo!"
           },
           {
-            title: "V. Honra teu pai e tua mãe",
-            description: "(Êxodo 20:12) Honra teu pai e tua mãe, a fim de que tenhas vida longa na terra que o Senhor, o teu Deus, te dá. Exige prezar a autoridade nas ruas e nos lares, rejeitando o rebelde egoísta natural jovem onde tudo flui no próprio ego arrogante insolente desabando famílias inteiras."
+            title: "V. Honra teus pais",
+            description: "Alinha e ensina o fundamento para combater e dizimar precocemente as corrupções cruas ao ego cívico na convivência! Transborda não somente num laço fidedigno biológico puro afetivo amável pros genitores; acarreta proteção profunda nas lideranças do mundo respeitando com ascese sã professores, patrões num trabalho zeloso onde você esteja sob eles perante Deus."
           },
           {
-            title: "VI. Não matarás",
-            description: "O Cristo eleva isto para a ira oculta. Não se assassina so com armas bélicas punhais e pólvora mas em difamação mental ódio vivo fogueira virtual assédio raivoso bullying cortante perante irmãos aos berros calados onde se destrói outro impiedosamente sádico nas vingancinhas mesquinhas vãs do coração vil."
+            title: "VI. Não Matarás",
+            description: "Cristo aprofunda este tribunal ao dizer ser homicida e quebra ao amor as injúrias com palavrões, os xingamentos rancorosos virtuais em bullying implacável destrutivos nos anonimatos sombrios sem perdão! Desejar o fim social arruinante impiedosamente na raiva a um par quebrou por ali de vez nas sentenças divinas."
           },
           {
-            title: "VII. Não adulterarás",
-            description: "Proíbe não só a traição e ruína dos laços leais sacros de corpos unidos diante de Deus na aliança, mas foca certeiramente na cultura da libertinagem pélvica da internet, conversas turvas da futilidade nua visual sem pejo destruidora lasciva em corrupção dos instintos no vaso sacro puro exigido do cristão celibatário em lutas leais sinceras de pureza honrosa."
+            title: "VII. Não Adulterarás",
+            description: "Preserva a santidade invencível e preciosa puramente amorífica fiel do casamento. Para solteiros, destrói a lascívia nos olhares de vícios contumazes num padrão de consumo tóxico da pornografia visual vazia da internet que dessensibiliza e afunda todo convívio respeitador d'um casal verdadeiro e santo à frente divinal nas casas."
           },
           {
-            title: "VIII. Não furtarás",
-            description: "Não abarque ao seu as posses ilegais, calotes escondidos avarentos sonegadores. Mas, acima disso: foca generosidade em labor cívico honesto dando a viúva aos doentes caridade ao pobre solitário que grita com frio na rua e que muitos passam cegos insensíveis nas suas riquezas arrogantes estéreis acumulativas sem socorro misericordioso ao lado ali caído."
+            title: "VIII. Não Furtarás",
+            description: "Cobre sim sonegações ocultas, explorações de fragilidades do prato de pobres com as barganhas espertas estelionatárias sujas! Adiciona que o apego excessivo a um dinheiro ganho sendo curo p o pão onde a necessidade bate forte num sofrimento sem roupas aos seus irmãos ou na fome já descumpre grave de desobediência a generosidade mandamental exigida dEle na caridade pra os doentes do mundo cego!"
           },
           {
-            title: "IX. Não darás falso testemunho",
-            description: "(Êxodo 20:16) Não darás falso testemunho contra o teu próximo. O cuidado sacrossanto inegociável com a fala no meio de redes tóxicas do escárnio difamatório da cultura de cancelamentos perigosos cegos fáceis dos vereditos falsos pisotear reputações com cinismo letal virtual em máscaras caladas das falsidades sujas soltas sem honra às vidas rasgadas mentindo perante o Todo Poderoso Veraz."
+            title: "IX. Não Dirás Falso Testemunho",
+            description: "Combate ao uso descuidado das línguas afiadas irresponsociáveis em nossos laços. Aniquila de pronto todo e qualquer boato não comprovado em que pisamos duro ferindo vidas ao nosso lado sem chance duma retração sem dor e de forma destrutível mentirosa nas fake news contadas que destroçam impérios ali pra fugas."
           },
           {
-            title: "X. Não cobiçarás",
-            description: "(Êxodo 20:17) Não cobiçarás a casa do teu próximo. Não cobiçarás a mulher do teu próximo, nem seus servos ou servas, nem seu boi ou jumento, nem coisa alguma que lhe pertença. Amargura tóxica cega invejosa venenosa dos dons e prosperidades vizinhas, não tendo profunda gratidão amorosa contente na suficiência diária infalível pacífica divinal dada em seu prato pão colo graça viva infusa agora já em regozijo na farta bênção simples pacata feliz em glória presente e fidedigna."
+            title: "X. Não Cobiçarás",
+            description: "O antídoto contra a murmuração crônica onde invejamos o gramado verde da rotina mentirosa dos vizinhos achando secretamente ser o Criador injustamente iníquo doador. Bate no coração insatisfeito provendo profunda abundância no foco imenso no contentamento calmo pela providência das pequenas pazs q recebemos onde seremos reinos dEle logo em glórias firmes com o bastante!"
           }
         ]
       },
